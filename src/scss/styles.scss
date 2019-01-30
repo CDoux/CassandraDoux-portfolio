@@ -1,7 +1,23 @@
 @import 'resetcss';
 
-div {
+.dégradé {
     background: linear-gradient(180deg, #C31432 -18.47%, #720F34 43.63%, #240B36 118.6%);
     width: auto;
     height: 789px;
+}
+
+.triangles_bas {
+    position: absolute;
+    width: auto;
+    height: 303px;
+    left: 0px;
+    top: 485px;
+}
+.triangles_haut {
+    position: absolute;
+    width: auto;
+    height: 303px;
+    left: 0px;
+    top: 0px;
+    transform: rotate(180deg);
 }
