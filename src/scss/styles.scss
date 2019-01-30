@@ -1,23 +1,21 @@
 @import 'resetcss';
 
-.dégradé {
+.linear_gradient {
     background: linear-gradient(180deg, #C31432 -18.47%, #720F34 43.63%, #240B36 118.6%);
-    width: auto;
-    height: 789px;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.triangles_haut {
+    position: relative;
+    width: 100vw;
+    transform: rotate(180deg);
 }
 
 .triangles_bas {
-    position: absolute;
-    width: auto;
-    height: 303px;
-    left: 0px;
-    top: 485px;
+    position: relative;
+    width: 100vw;
+    height: calc(100% - 252.34px);
 }
-.triangles_haut {
-    position: absolute;
-    width: auto;
-    height: 303px;
-    left: 0px;
-    top: 0px;
-    transform: rotate(180deg);
-}
+
