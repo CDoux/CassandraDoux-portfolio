@@ -1,20 +1,27 @@
 @import 'resetcss';
 
+@font-face {
+    
+}
+
+
 .linear_gradient {
     background: linear-gradient(180deg, #C31432 -18.47%, #720F34 43.63%, #240B36 118.6%);
     height: 100vh;
     width: 100vw;
-    position: absolute;
+    position: relative;
 }
 
 .triangles_haut {
-    position: relative;
+    position: absolute;
+    top: 0;
     width: 100vw;
     transform: rotate(180deg);
 }
 
 .triangles_bas {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     width: 100vw;
     height: auto;
 }
