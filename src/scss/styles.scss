@@ -1,7 +1,20 @@
 @import 'resetcss';
 
 @font-face {
-    
+    font-family: 'Bodoni_roman';
+    src: url(../fonts/bodoni/BodoniFLF-Roman.ttf);
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Bodoni_bold';
+    src: url(../fonts/bodoni/BodoniFLF-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+
+    font-family: 'Gothic_Light';
+    src: url(../fonts/Gothic_A1/GothicA1-Light.ttf);
+    font-weight: lighter;
+    font-style: normal;
 }
 
 
