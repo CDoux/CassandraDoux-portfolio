@@ -12,7 +12,8 @@ body {
     background: linear-gradient(180deg, #C31432 -18.47%, #720F34 43.63%, #240B36 118.6%);
     height: 100vh;
     width: 100vw;
-    position: relative;
+    display: flex;
+    justify-content: center
 }
 
 .triangles_haut {
@@ -29,12 +30,22 @@ body {
     height: auto;
 }
 
-.first_titre {
-    font-family: 'bodoniflfregular';
+.text {
     display: flex;
-    justify-content: center;
-    font-size: 5em;
-    letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.4);
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    align-items: center;
+
+    & .first_titre {
+        font-family: 'bodoniflfregular';
+        font-size: 5em;
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.4);
+        text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    & p {
+        font-family: 'bodoniflfregular';
+        font-size: 1.2em;
+        color: #FFFFFF;
+        letter-spacing: 0.02em;
+    }
 }
